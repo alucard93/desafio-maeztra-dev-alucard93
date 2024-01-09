@@ -1,9 +1,17 @@
 import React from 'react'
+import TopHeader from './TopHeader'
+import MidHeader from './MidHeader'
+import FinalHeader from './FinalHeader'
 
-const index = () => {
+
+const Header = () => {
   return (
-    <div>index</div>
+    <div>
+      <TopHeader/>
+      <MidHeader/>
+      <FinalHeader/>
+    </div>
   )
 }
 
-export default index
+export default Header
