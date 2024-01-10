@@ -2,15 +2,15 @@ import React from 'react'
 import TopHeader from './TopHeader'
 import MidHeader from './MidHeader'
 import FinalHeader from './FinalHeader'
-
+import { HeaderContainerStyled } from './style'
 
 const Header = () => {
   return (
-    <div>
-      <TopHeader/>
-      <MidHeader/>
-      <FinalHeader/>
-    </div>
+    <HeaderContainerStyled>
+      <TopHeader />
+      <MidHeader />
+      <FinalHeader />
+    </HeaderContainerStyled>
   )
 }
 
