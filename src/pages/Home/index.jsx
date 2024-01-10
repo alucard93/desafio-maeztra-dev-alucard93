@@ -4,6 +4,8 @@ import SliderBannerMain from '../../components/SliderBannerMain'
 import WhyBuy from '../../components/WhyBuy'
 import PartnerBrands from '../../components/PartnerBrands'
 import HomeShowcase from '../../components/HomeShowcase'
+import InfoCard from '../../components/InfoCard'
+import Newsletter from '../../components/Newsletter'
 
 const Home = () => {
   return (
@@ -12,7 +14,9 @@ const Home = () => {
       <SliderBannerMain />
       <WhyBuy />
       <PartnerBrands />
-      <HomeShowcase/>
+      <HomeShowcase />
+      <InfoCard />
+      <Newsletter/>
     </div>
   )
 }

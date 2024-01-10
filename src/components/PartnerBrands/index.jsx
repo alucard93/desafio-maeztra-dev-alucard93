@@ -9,26 +9,46 @@ import ann from '../../assets/ann.png'
 const PartnerBrands = () => {
   return (
     <PartnerBrandsContainerStyled>
-      <h3 className='text-partner-brand'>Marcas Parceiras</h3>
+      <h3 className="text-partner-brand">Marcas Parceiras</h3>
       <div className="wrapper-img-paragraph-partner-brand">
         <div className="container-img-paragraph-partner-brand">
-          <img src={comma} alt="icone marca comma" />
+          <img
+            className="img-partner-brand"
+            src={comma}
+            alt="icone marca comma"
+          />
         </div>
 
         <div className="container-img-paragraph-partner-brand">
-          <img src={melissa} alt="icone marca melissa" />
+          <img
+            className="img-partner-brand"
+            src={melissa}
+            alt="icone marca melissa"
+          />
         </div>
 
         <div className="container-img-paragraph-partner-brand">
-          <img src={forever} alt="icone marca forever" />
+          <img
+            className="img-partner-brand"
+            src={forever}
+            alt="icone marca forever"
+          />
         </div>
 
         <div className="container-img-paragraph-partner-brand">
-          <img src={zara} alt="icone marca zara" />
+          <img
+            className="img-partner-brand"
+            src={zara}
+            alt="icone marca zara"
+          />
         </div>
 
         <div className="container-img-paragraph-partner-brand">
-          <img src={ann} alt="icone marca ann taylor" />
+          <img
+            className="img-partner-brand"
+            src={ann}
+            alt="icone marca ann taylor"
+          />
         </div>
       </div>
     </PartnerBrandsContainerStyled>

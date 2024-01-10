@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ShowcaseContainerStyled = styled.div`
   width: 100%;
 
-  height: 601px;
+  height: 674px;
 
   .title-showcase {
     color: var(--color-2-500, #353535);
