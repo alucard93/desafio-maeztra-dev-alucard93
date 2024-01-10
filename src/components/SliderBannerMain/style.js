@@ -16,6 +16,10 @@ export const BannerMainContainerStyled = styled.div`
     max-width: 100%;
   }
 
+  .slick-current {
+    display: none;
+  }
+
   .slick-prev {
     left: 0;
   }
