@@ -57,4 +57,16 @@ export const WhyBuyContainerStyled = styled.section`
     font-weight: 400;
     line-height: normal;
   }
+
+  @media (max-width: 1024px) {
+    .wrapper-img-paragraph-why-buy {
+      overflow: scroll;
+      justify-content: flex-start;
+      padding-left: 31px;
+    }
+
+    .container-img-paragraph-why-buy {
+      min-width: 298px;
+    }
+  }
 `
