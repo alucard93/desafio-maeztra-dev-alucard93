@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const NewsletterContainerStyled = styled.section`
   width: 100%;
   display: flex;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
   border-top: 1px solid #efefef;
   border-bottom: 1px solid #efefef;
   padding: 40px 0;

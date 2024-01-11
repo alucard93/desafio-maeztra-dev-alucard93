@@ -56,4 +56,8 @@ export const FinalHeaderContainerStyled = styled.div`
     font-weight: 400;
     line-height: 21px; /* 150% */
   }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `
