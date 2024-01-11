@@ -49,4 +49,22 @@ export const InfoCardContainerStyled = styled.section`
     object-fit: contain;
     display: block;
   }
+
+  @media (max-width: 1024px) {
+    padding: 0 31px;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .container-infocard-img {
+    width: 100%;
+    max-width: 300px;
+    height: 185px;
+    background: url(src/assets/infocardMobile.svg) no-repeat center center /
+      cover;
+  }
+
+  .infocard-img {
+    display: none;
+  }
 `

@@ -14,11 +14,29 @@ const ShowCase = ({ showcasesData }) => {
     arrows: true,
     slidesToShow: 5,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 5,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 375,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   }
 
   return (
     <ShowcaseContainerStyled>
-    <h3 className='title-showcase'>As Mais Pedidas</h3>
+      <h3 className="title-showcase">As Mais Pedidas</h3>
       <Slider {...settings}>
         {showcasesData.map((showcase, index) => (
           <div className="container-showcase" key={index}>

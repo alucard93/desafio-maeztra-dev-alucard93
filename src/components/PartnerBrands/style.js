@@ -40,4 +40,21 @@ export const PartnerBrandsContainerStyled = styled.section`
     object-fit: contain;
     max-width: 100%;
   }
+
+  @media (max-width: 1024px) {
+    .wrapper-img-paragraph-partner-brand {
+      overflow: scroll;
+      justify-content: flex-start;
+      padding-left: 31px;
+      gap: 16px;
+    }
+
+    .container-img-paragraph-partner-brand {
+      min-width: 298px;
+    }
+
+    .container-img-paragraph-partner-brand:nth-child(0n + 3) {
+      order: -1;
+    }
+  }
 `

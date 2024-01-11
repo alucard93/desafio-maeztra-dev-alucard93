@@ -60,4 +60,10 @@ export const FooterContainerStyled = styled.section`
     font-weight: 400;
     line-height: 18px; /* 150% */
   }
+
+  @media (max-width: 1024px) {
+    .container-footer-list-item {
+      flex-direction: column;
+    }
+  }
 `

@@ -69,4 +69,10 @@ export const NewsletterContainerStyled = styled.section`
     font-weight: 700;
     line-height: normal;
   }
+
+  @media (max-width: 1024px) {
+    .container-newsletter-text-input-btn {
+      flex-direction: column;
+    }
+  }
 `

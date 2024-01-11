@@ -180,4 +180,16 @@ export const ShowcaseContainerStyled = styled.div`
   .slick-prev::before {
     display: none;
   }
+
+  @media (max-width: 1024px) {
+    .title-showcase {
+      color: var(--color-2-500, #353535);
+      text-align: center;
+      font-family: Titillium Web;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
 `

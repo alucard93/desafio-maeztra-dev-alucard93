@@ -23,7 +23,23 @@ export const FooterFinalContainerStyled = styled.section`
   }
 
   .container-img-footer-final:nth-child(0n + 2) {
-    background-color: red;
     margin-left: 139px;
+  }
+
+  @media (max-width: 1024px) {
+    height: 233px;
+    .container-footer-final {
+      align-items: center;
+      gap: 32px;
+      flex-direction: column;
+    }
+
+    .container-img-footer-final:nth-child(0n + 2) {
+      margin-left: 0;
+    }
+
+    .container-img-footer-final:last-child {
+      margin-left: 10px;
+    }
   }
 `
