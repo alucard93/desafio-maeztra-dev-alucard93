@@ -49,14 +49,22 @@ Error generating stack: `+o.message+`
         outline: 0;
     }
 
+    button {
+        cursor: pointer;
+    }
+
     body {
         -webkit-font-smoothing: antialiased;
     }
 
     body, input, textarea, button {
-        font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 1rem;
+    }
+
+    .newsletter-btn,
+    .container-user-mid-header {
+        cursor: pointer;
     }
 `,Xm=ke.div`
   width: 100%;
@@ -389,6 +397,10 @@ Error generating stack: `+o.message+`
     overflow: scroll;
   }
 
+  .wrapper-img-paragraph-why-buy::-webkit-scrollbar {
+    width: 0;
+  }
+
   .container-img-paragraph-why-buy {
     display: flex;
     gap: 22px;
@@ -485,6 +497,10 @@ Error generating stack: `+o.message+`
     padding: 0 31px;
   }
 
+  .wrapper-img-paragraph-partner-brand::-webkit-scrollbar {
+    width: 0;
+  }
+
   .container-img-paragraph-partner-brand {
     width: 100%;
     max-width: 308px;
@@ -496,7 +512,6 @@ Error generating stack: `+o.message+`
     object-fit: contain;
     max-width: 100%;
   }
-
 
   @media (max-width: 1024px) {
     margin-bottom: 39px;
@@ -1190,6 +1205,7 @@ Error generating stack: `+o.message+`
     font-weight: 400;
     line-height: 20px;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   .container-info-modal {
@@ -1260,6 +1276,7 @@ Error generating stack: `+o.message+`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
     border-radius: 10px;
     border: 1px solid var(--cor-neutra-color-5500-bebebe, #c4c4c4);
