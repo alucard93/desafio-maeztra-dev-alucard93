@@ -86,6 +86,9 @@ export const BannerMainContainerStyled = styled.div`
   }
 
   @media (max-width: 1024px) {
+    .img-banner-main {
+      margin: 0 auto;
+    }
     .slick-prev {
       left: 20px;
     }

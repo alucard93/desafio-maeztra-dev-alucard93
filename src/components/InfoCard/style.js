@@ -50,21 +50,27 @@ export const InfoCardContainerStyled = styled.section`
     display: block;
   }
 
+  @media (min-width: 1025px) and (max-width: 1919px) {
+    padding: 0 31px;
+  }
+
   @media (max-width: 1024px) {
+    margin-top: 0;
+    margin-bottom: 39px;
     padding: 0 31px;
     flex-direction: column;
     gap: 24px;
-  }
 
-  .container-infocard-img {
-    width: 100%;
-    max-width: 300px;
-    height: 185px;
-    background: url(src/assets/infocardMobile.svg) no-repeat center center /
-      cover;
-  }
+    .container-infocard-img {
+      width: 100%;
+      max-width: 300px;
+      height: 185px;
+      background: url(src/assets/infocardMobile.svg) no-repeat center center /
+        cover;
+    }
 
-  .infocard-img {
-    display: none;
+    .infocard-img {
+      display: none;
+    }
   }
 `

@@ -27,6 +27,7 @@ export const WhyBuyContainerStyled = styled.section`
     justify-content: center;
     align-items: center;
     gap: 15px;
+    overflow: scroll;
   }
 
   .container-img-paragraph-why-buy {
@@ -56,17 +57,42 @@ export const WhyBuyContainerStyled = styled.section`
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    white-space: nowrap;
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .wrapper-img-paragraph-why-buy {
+      justify-content: flex-start;
+      overflow: scroll;
+      padding: 0 31px;
+    }
+
+    .wrapper-img-paragraph-why-buy::-webkit-scrollbar {
+      width: 100%;
+    }
   }
 
   @media (max-width: 1024px) {
+    margin-top: 20px;
+    margin-bottom: 0px;
     .wrapper-img-paragraph-why-buy {
       overflow: scroll;
       justify-content: flex-start;
       padding-left: 31px;
+      padding-right: 31px;
+      scroll-snap-type: x proximity;
+    }
+
+    .wrapper-img-paragraph-why-buy::-webkit-scrollbar {
+      width: 0;
     }
 
     .container-img-paragraph-why-buy {
       min-width: 298px;
+    }
+
+    .paragraph-why-buy {
+      white-space: nowrap;
     }
   }
 `

@@ -8,6 +8,7 @@ import InfoCard from '../../components/InfoCard'
 import Newsletter from '../../components/Newsletter'
 import Footer from '../../components/Footer'
 import HeaderMobile from '../../components/HeaderMobile'
+import DisclouseMobile from '../../components/DisclouseMobile'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <HomeShowcase />
       <InfoCard />
       <Newsletter />
+      <DisclouseMobile />
       <Footer />
     </div>
   )

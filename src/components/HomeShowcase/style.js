@@ -181,6 +181,17 @@ export const ShowcaseContainerStyled = styled.div`
     display: none;
   }
 
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    padding: 0 31px;
+    .slick-track {
+      gap: 15px;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1919px) {
+    padding: 0 31px;
+  }
+
   @media (max-width: 1024px) {
     .title-showcase {
       color: var(--color-2-500, #353535);
@@ -190,6 +201,12 @@ export const ShowcaseContainerStyled = styled.div`
       font-style: normal;
       font-weight: 700;
       line-height: normal;
+    }
+  }
+
+  @media (min-width: 361px) and (max-width: 1919px) {
+    .slick-track {
+      gap: 15px;
     }
   }
 `

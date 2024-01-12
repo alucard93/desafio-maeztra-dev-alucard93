@@ -71,8 +71,37 @@ export const NewsletterContainerStyled = styled.section`
   }
 
   @media (max-width: 1024px) {
+    background: #fafafa;
+
     .container-newsletter-text-input-btn {
       flex-direction: column;
+      gap: 8px;
+    }
+
+    .newsletter-text {
+      text-align: center;
+    }
+
+    .container-newsletter-input-btn {
+      padding: 0 31px;
+      border: none;
+      background-color: #fafafa;
+      gap: 15px;
+    }
+
+    .newsletter-input {
+      border-radius: 4px;
+      border: 1px solid var(--color-2-500, #353535);
+      background: var(--color-5-500, #fff);
+      height: 26px;
+    }
+
+    .newsletter-btn {
+      border-radius: 4px;
+      border: 1px solid var(--color-1500-faa-500, #faa500);
+      background: var(--color-1500-faa-500, #faa500);
+      height: 26px;
+      max-width: 79px;
     }
   }
 `

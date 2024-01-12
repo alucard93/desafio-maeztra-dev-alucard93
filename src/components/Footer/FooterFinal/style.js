@@ -7,6 +7,7 @@ export const FooterFinalContainerStyled = styled.section`
   align-items: center;
   justify-content: center;
   height: 85px;
+  padding: 0 31px;
   background: #353535;
 
   .container-footer-final {

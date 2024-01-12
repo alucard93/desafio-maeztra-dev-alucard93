@@ -8,27 +8,98 @@ const ShowCase = ({ showcasesData }) => {
   const settings = {
     dots: false,
     infinite: true,
-    autoplay: true,
-    speed: 5000,
-    autoplaySpeed: 5000,
+    // autoplay: true,
+    // speed: 5000,
+    // autoplaySpeed: 5000,
     arrows: true,
     slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1440,
         settings: {
           slidesToShow: 5,
           slidesToScroll: 5,
           infinite: true,
-          dots: true,
+        },
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 928,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 828,
+        settings: {
+          slidesToShow: 3,
+
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+
+          slidesToScroll: 2,
+        },
+      },
+
+      {
+        breakpoint: 530,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+
+      {
+        breakpoint: 518,
+        settings: {
+          slidesToShow: 1,
+          centerMode: true,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 428,
+        settings: {
+          slidesToShow: 1,
+          centerMode: true,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 375,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
+          centerMode: true,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 360,
+        settings: {
+          slidesToShow: 1,
+
+          slidesToScroll: 2,
         },
       },
     ],

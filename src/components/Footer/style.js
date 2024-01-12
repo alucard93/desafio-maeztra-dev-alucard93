@@ -63,7 +63,7 @@ export const FooterContainerStyled = styled.section`
 
   @media (max-width: 1024px) {
     .container-footer-list-item {
-      flex-direction: column;
+      display: none;
     }
   }
 `

@@ -27,6 +27,8 @@ export const PartnerBrandsContainerStyled = styled.section`
     justify-content: center;
     align-items: center;
     gap: 15px;
+    overflow: scroll;
+    padding: 0 31px;
   }
 
   .container-img-paragraph-partner-brand {
@@ -41,12 +43,19 @@ export const PartnerBrandsContainerStyled = styled.section`
     max-width: 100%;
   }
 
+
   @media (max-width: 1024px) {
+    margin-bottom: 39px;
     .wrapper-img-paragraph-partner-brand {
       overflow: scroll;
       justify-content: flex-start;
       padding-left: 31px;
+      padding-right: 31px;
       gap: 16px;
+    }
+
+    .wrapper-img-paragraph-partner-brand::-webkit-scrollbar {
+      width: 0;
     }
 
     .container-img-paragraph-partner-brand {
@@ -55,6 +64,10 @@ export const PartnerBrandsContainerStyled = styled.section`
 
     .container-img-paragraph-partner-brand:nth-child(0n + 3) {
       order: -1;
+    }
+
+    .container-img-paragraph-partner-brand {
+      background: lightgray 50%;
     }
   }
 `
