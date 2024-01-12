@@ -31,6 +31,10 @@ export const PartnerBrandsContainerStyled = styled.section`
     padding: 0 31px;
   }
 
+  .wrapper-img-paragraph-partner-brand::-webkit-scrollbar {
+    width: 0;
+  }
+
   .container-img-paragraph-partner-brand {
     width: 100%;
     max-width: 308px;
@@ -42,7 +46,6 @@ export const PartnerBrandsContainerStyled = styled.section`
     object-fit: contain;
     max-width: 100%;
   }
-
 
   @media (max-width: 1024px) {
     margin-bottom: 39px;

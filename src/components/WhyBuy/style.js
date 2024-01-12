@@ -30,6 +30,10 @@ export const WhyBuyContainerStyled = styled.section`
     overflow: scroll;
   }
 
+  .wrapper-img-paragraph-why-buy::-webkit-scrollbar {
+    width: 0;
+  }
+
   .container-img-paragraph-why-buy {
     display: flex;
     gap: 22px;

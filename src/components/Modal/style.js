@@ -48,6 +48,7 @@ export const ModalContainerStyled = styled.div`
     font-weight: 400;
     line-height: 20px;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   .container-info-modal {
@@ -118,6 +119,7 @@ export const ModalContainerStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
     border-radius: 10px;
     border: 1px solid var(--cor-neutra-color-5500-bebebe, #c4c4c4);
