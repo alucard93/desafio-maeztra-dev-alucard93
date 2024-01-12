@@ -17,4 +17,16 @@ export const TopHeaderContainerStyled = styled.div`
     font-weight: 400;
     line-height: 18px;
   }
+
+  @media (max-width: 1024px) {
+    .newsletter-text {
+      color: #fff;
+      text-align: center;
+      font-family: Titillium Web;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; /* 180% */
+    }
+  }
 `

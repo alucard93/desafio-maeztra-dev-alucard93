@@ -82,4 +82,10 @@ export const MidHeaderContainerStyled = styled.div`
     display: flex;
     gap: 8px;
   }
+
+  @media (max-width: 1024px) {
+    .wrapper-mid-header {
+      display: none;
+    }
+  }
 `
