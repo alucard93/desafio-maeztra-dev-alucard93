@@ -11,6 +11,7 @@ export const MidHeaderContainerStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 31px;
     height: 88px;
     background: #fff;
   }

@@ -6,7 +6,6 @@ const Modal = () => {
   const [isDisplay, setIsDisplay] = useState(true)
   return (
     <ModalContainerStyled>
-      <button onClick={() => setIsDisplay(true)}>ON</button>
       {isDisplay && (
         <div className="background">
           <div className="modal">
@@ -16,10 +15,10 @@ const Modal = () => {
             >
               FECHAR
             </button>
-            <figure className='container-img-modal'>
+            <figure className="container-img-modal">
               <img src={imgModal} alt="" />
             </figure>
-            <article className='container-info-modal'>
+            <article className="container-info-modal">
               <svg
                 width="28"
                 height="30"
@@ -41,12 +40,18 @@ const Modal = () => {
                 />
               </svg>
               <p className="text-welcome">Bem Vindo à MAEZTRA</p>
-              <h3 className='text-handle'>
+              <h3 className="text-handle">
                 Receba em Primeira mão{' '}
-                <strong className='strong-text-handle'>desconto e ofertas exclusivas</strong>
+                <strong className="strong-text-handle">
+                  desconto e ofertas exclusivas
+                </strong>
               </h3>
-              <input className='input-modal' placeholder="Digite seu e-mail" type="email" />
-              <button className='btn-modal-send'>
+              <input
+                className="input-modal"
+                placeholder="Digite seu e-mail"
+                type="email"
+              />
+              <button className="btn-modal-send">
                 ENVIAR{' '}
                 <svg
                   width="14"

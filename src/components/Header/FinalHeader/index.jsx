@@ -8,14 +8,28 @@ const FinalHeader = () => {
         <ul className="container-final-header-list">
           <div className="container-first-item-final-header">
             <img src={dress} alt="" />
-            <li className="item-final-header">Novidades</li>
+            <li className="item-final-header">
+              <a href="">Novidades</a>
+            </li>
           </div>
-          <li className="item-final-header">Vestidos</li>
-          <li className="item-final-header">Roupas</li>
-          <li className="item-final-header">Sapatos</li>
-          <li className="item-final-header">Lingerie</li>
-          <li className="item-final-header">Acessórios</li>
-          <li className="item-final-header">OUTLET</li>
+          <li className="item-final-header">
+            <a href="">Vestidos</a>
+          </li>
+          <li className="item-final-header">
+            <a href="">Roupas</a>
+          </li>
+          <li className="item-final-header">
+            <a href="">Sapatos</a>
+          </li>
+          <li className="item-final-header">
+            <a href="">Lingerie</a>
+          </li>
+          <li className="item-final-header">
+            <a href="">Acessórios</a>
+          </li>
+          <li className="item-final-header">
+            <a href="">OUTLET</a>
+          </li>
         </ul>
       </nav>
     </FinalHeaderContainerStyled>

@@ -57,8 +57,7 @@ export const BannerMainContainerStyled = styled.div`
     display: none;
   }
   .slick-dots li:not(.slick-active) {
-    background: url('data:image/svg+xml,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58065 0 0 3.58065 0 8C0 12.4194 3.58065 16 8 16C12.4194 16 16 12.4194 16 8C16 3.58065 12.4194 0 8 0ZM8 14.4516C4.43548 14.4516 1.54839 11.5645 1.54839 8C1.54839 4.43548 4.43548 1.54839 8 1.54839C11.5645 1.54839 14.4516 4.43548 14.4516 8C14.4516 11.5645 11.5645 14.4516 8 14.4516Z" fill="%23FAA500"/></svg>')
-      no-repeat;
+    background: url(src/assets/_icon-elipsevazio.svg) no-repeat;
     height: 16px;
     width: 16px;
     z-index: 4;
@@ -66,8 +65,7 @@ export const BannerMainContainerStyled = styled.div`
 
   .slick-active {
     content: '';
-    background: url('data:image/svg+xml,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58065 0 0 3.58065 0 8C0 12.4194 3.58065 16 8 16C12.4194 16 16 12.4194 16 8C16 3.58065 12.4194 0 8 0Z" fill="%23FAA500"/></svg>')
-      no-repeat;
+    background: url(src/assets/_icon-elipsecheia.svg) no-repeat;
     height: 16px;
     width: 16px;
     z-index: 4;

@@ -37,7 +37,7 @@ export const FinalHeaderContainerStyled = styled.div`
     gap: 8px;
   }
 
-  .container-first-item-final-header .item-final-header {
+  .container-first-item-final-header .item-final-header > a {
     color: var(--color-1500-faa-500, #faa500);
     text-align: center;
     font-family: Titillium Web;
@@ -47,7 +47,7 @@ export const FinalHeaderContainerStyled = styled.div`
     line-height: 21px; /* 150% */
   }
 
-  .item-final-header {
+  .item-final-header > a {
     color: var(--color-2-500, #353535);
     text-align: center;
     font-family: Titillium Web;
