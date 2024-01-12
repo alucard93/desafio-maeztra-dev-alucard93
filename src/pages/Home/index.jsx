@@ -9,6 +9,7 @@ import Newsletter from '../../components/Newsletter'
 import Footer from '../../components/Footer'
 import HeaderMobile from '../../components/HeaderMobile'
 import DisclouseMobile from '../../components/DisclouseMobile'
+import Modal from '../../components/Modal'
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Newsletter />
       <DisclouseMobile />
       <Footer />
+      <Modal/>
     </div>
   )
 }
