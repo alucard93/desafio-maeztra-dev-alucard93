@@ -65,7 +65,7 @@ export const InfoCardContainerStyled = styled.section`
       width: 100%;
       max-width: 300px;
       height: 185px;
-      background: url(src/assets/infocardMobile.svg) no-repeat center center /
+      background: url(./src/assets/infocardMobile.svg) no-repeat center center /
         cover;
     }
 

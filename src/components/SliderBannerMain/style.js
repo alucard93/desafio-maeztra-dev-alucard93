@@ -31,7 +31,7 @@ export const BannerMainContainerStyled = styled.div`
   .slick-next {
     content: '';
     display: inline-block;
-    background: url(src/assets/icons/icon-prev.svg) no-repeat;
+    background: url(./src/assets/icons/icon-prev.svg) no-repeat;
     height: 32px;
     width: 19.5px;
     transform: rotate(180deg);
@@ -46,7 +46,7 @@ export const BannerMainContainerStyled = styled.div`
     content: '';
     position: absolute;
     display: inline-block;
-    background: url(src/assets/icons/icon-prev.svg) no-repeat;
+    background: url(./src/assets/icons/icon-prev.svg) no-repeat;
     height: 32px;
     width: 19.5px;
     z-index: 4;
