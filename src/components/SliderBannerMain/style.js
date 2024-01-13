@@ -31,7 +31,7 @@ export const BannerMainContainerStyled = styled.div`
   .slick-next {
     content: '';
     display: inline-block;
-    background: url(./src/assets/icons/icon-prev.svg) no-repeat;
+    background: url('./src/assets/icons/icon-prev.svg') no-repeat;
     height: 32px;
     width: 19.5px;
     transform: rotate(180deg);
@@ -46,7 +46,7 @@ export const BannerMainContainerStyled = styled.div`
     content: '';
     position: absolute;
     display: inline-block;
-    background: url(./src/assets/icons/icon-prev.svg) no-repeat;
+    background: url('./src/assets/icons/icon-prev.svg') no-repeat;
     height: 32px;
     width: 19.5px;
     z-index: 4;
@@ -57,7 +57,7 @@ export const BannerMainContainerStyled = styled.div`
     display: none;
   }
   .slick-dots li:not(.slick-active) {
-    background: url(src/assets/_icon-elipsevazio.svg) no-repeat;
+    background: url('src/assets/_icon-elipsevazio.svg') no-repeat;
     height: 16px;
     width: 16px;
     z-index: 4;
@@ -65,7 +65,7 @@ export const BannerMainContainerStyled = styled.div`
 
   .slick-active {
     content: '';
-    background: url(src/assets/_icon-elipsecheia.svg) no-repeat;
+    background: url('src/assets/_icon-elipsecheia.svg') no-repeat;
     height: 16px;
     width: 16px;
     z-index: 4;
