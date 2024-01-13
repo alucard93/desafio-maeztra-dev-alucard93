@@ -349,7 +349,7 @@ Error generating stack: `+i.message+`
     .slick-next {
       right: 20px;
       top: 50%;
-      transform: translateY(-50%) rotate(180deg);
+      transform: translateY(-50%);
     }
 
     .slick-active {
