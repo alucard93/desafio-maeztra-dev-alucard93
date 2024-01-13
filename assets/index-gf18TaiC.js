@@ -285,7 +285,7 @@ Error generating stack: `+o.message+`
   .slick-next {
     content: '';
     display: inline-block;
-    background: url(src/assets/icons/icon-prev.svg) no-repeat;
+    background: url(./src/assets/icons/icon-prev.svg) no-repeat;
     height: 32px;
     width: 19.5px;
     transform: rotate(180deg);
@@ -300,7 +300,7 @@ Error generating stack: `+o.message+`
     content: '';
     position: absolute;
     display: inline-block;
-    background: url(src/assets/icons/icon-prev.svg) no-repeat;
+    background: url(./src/assets/icons/icon-prev.svg) no-repeat;
     height: 32px;
     width: 19.5px;
     z-index: 4;
@@ -697,7 +697,7 @@ Error generating stack: `+o.message+`
   .slick-next {
     content: '';
     display: inline-block;
-    background: url(src/assets/icons/icon-prev.svg) no-repeat;
+    background: url(./src/assets/icons/icon-prev.svg) no-repeat;
     height: 32px;
     width: 19.5px;
     transform: rotate(180deg);
@@ -712,7 +712,7 @@ Error generating stack: `+o.message+`
     content: '';
     position: absolute;
     display: inline-block;
-    background: url(src/assets/icons/icon-prev.svg) no-repeat;
+    background: url(./src/assets/icons/icon-prev.svg) no-repeat;
     height: 32px;
     width: 19.5px;
     z-index: 4;
@@ -816,7 +816,7 @@ Error generating stack: `+o.message+`
       width: 100%;
       max-width: 300px;
       height: 185px;
-      background: url(src/assets/infocardMobile.svg) no-repeat center center /
+      background: url(./src/assets/infocardMobile.svg) no-repeat center center /
         cover;
     }
 
